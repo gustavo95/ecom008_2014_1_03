@@ -20,8 +20,8 @@ int main()
 
     cout << test->left(0)<< endl;
 
-    for(i = 0; i < test->n; i++){
-        cout << test->content[i] << endl;
+    for(i = 0; i < test->n1; i++){
+        cout << test->content1[i] << endl;
     }
     cout << endl;
 
@@ -29,15 +29,15 @@ int main()
     test->insert(1);
     test->insert(6);
 
-    for(i = 0; i < test->n; i++){
-        cout << test->content[i] << endl;
+    for(i = 0; i < test->n1; i++){
+        cout << test->content1[i] << endl;
     }
     cout << endl;
 
     cout << test->removefirst() << endl << endl;
 
-    for(i = 0; i < test->n; i++){
-        cout << test->content[i] << endl;
+    for(i = 0; i < test->n1; i++){
+        cout << test->content1[i] << endl;
     }
     cout << endl;
 
@@ -47,8 +47,8 @@ int main()
 
     test->remove(1);
 
-    for(i = 0; i < test->n; i++){
-        cout << test->content[i] << endl;
+    for(i = 0; i < test->n1; i++){
+        cout << test->content1[i] << endl;
     }
     cout << endl;
 
